@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+<title></title>
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 $(function(){
@@ -8,25 +10,70 @@ $(function(){
   $("#footer").load("footer.html");
 });
 </script>
+<style>
+  /* Add custom CSS here */
+  .indented-list {
+    padding-left: 20px; /* Adjust the indentation */
+    /* Additional styling */
+    list-style-type: disc; /* Default bullet style, change as needed */
+  }
+</style>
+</head>
 
-<body>
+<body> 
 <div id="header"></div>
 <!--Remaining section-->
 
-    <div class="page-content">
-        <div class="wrapper">
-            <div class="post">
-                <article class="post-content">
-                    <section>
-                        <img src="./img/profile.png" align="left" hspace="15" vspace="5" width="234" height="269"/>
-                    </section>
-                    [INTRODUCE YOURSELF]
-                </article>
-            </div>
-        </div>
+ <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About Me</h1>
+  </header>
+
+<article class="post-content">
+    <section>
+     <img src="./profile.png" align="left" hspace="16" vspace="4"
+      width="310" height="386"/>
+     
+     </section>   
+    	</p>
+    	<br>
+    	 Jinseok Park, Ph.D. Candidate in 
+        <a href="https://dornsife.usc.edu/econ/" target="_blank">Economics</a>,
+        University of Southern California.<br>
+    	<br>
+    My research focuses on labor and urban economics, with particular interest in how housing markets shape entrepreneurship and economic dynamism. I employ applied microeconometric methods and leverage rich administrative and survey datasets to answer questions that inform policy and deepen our understanding of cities and labor markets.<br><br>
+    	<br>
+    	<b>&nbsp;Research Interest</b><br>
+    	<span>&#8226;</span> International Macroeconomics & Finance<br>
+    	<span>&#8226;</span> Urban & Spatial Economics<br>		
+    	<span>&#8226;</span> Household Finance<br>
+      <br>
+      Outside of economics, I enjoy hiking, running, and playing soccer.<br>
+      	</ul>
+    	<br>
+    	<!--<b>Research Keywords</b> [<a href="researchstatement.pdf">Research Statement</a>]<br> 
+    	Role of Housing in International Business Cycles<br> 
+    	Liquidity Demand and Nominal Exchange Rate<br>
+    	Valuation Effect and External Balance Sheet<br>  
+    	Housing and Portfolio Choice & Entrepreneurship Choice<br> 
+    	Housing Market and Resource Allocation in General Equilibrium <br>-->
+    	<br>  
+    	</p> 
+  </article>
+
+</div>
+
+      </div>
     </div>
 
 <div id="footer"></div>
+<div style="display: none;">
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=9pdg48a-pmQY9lx6dwPEvzK9_3aqN1WoC6v7HHejAoI&cl=ffffff&w=a"></script>	
+</div>
 
 </body>
+
 </html>
