@@ -1,36 +1,166 @@
 <!DOCTYPE html>
 <html>
 
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script>
-$(function(){
-  $("#header").load("header.html");
-  $("#footer").load("footer.html");
-});
-</script>
+<head>
+    <title></title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <style>
+        /* Add this to normalize spacing */
+        ul, li, p, strong, a, details {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        li {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
 
 <body>
-<div id="header"></div>
-<!--Remaining section-->
+    <div id="header"></div>
 
     <div class="page-content">
         <div class="wrapper">
             <div class="post">
-
-                <!--header class="post-header">
-                    <h1 class="post-title">[IF YOU WANT TO ADD  AN EXTRA TITLE, REMOVE !-- and --]</h1>
-                </header-->
+                <header class="post-header">
+                    <h1 class="post-title"></h1>
+                </header>
 
                 <article class="post-content">
-                    <h1 id="working paper">Working Papers</h1>
-                    <p><strong>[TITLE OF YOUR RESEARCH PAPER]</strong></p>
-                    <p> [ABSTRACT OF YOUR RESEARCH PAPER]</p>
+
+                  
+                      <h1 id="Research in Progress">Job Market Paper</h1>
+                    <ul>
+                        <li>
+                            <strong>Skyrocketing House Prices and Squeezed Young Entrepreneurs</strong> (with <a class="page-link" href="https://sites.google.com/view/jinseokpark/home?authuser=0">Jinseok Park</a>)<br>
+                        </li>
+                        <br>                        
+                        <li>
+                            <strong>International Balance Sheet: A Deep Dive</strong> (with <a class="page-link" href="http://www.cianallen.org/">Allen Cian</a> and <a class="page-link" href="https://sites.google.com/site/lucianajuvenal/home?authuser=0">Luciana Juvenal</a>)<br>
+                        </li>                        
+                    <ul>                   
+                  
+                  
+                  
+                  
+                  
+                  <h1 id="Research in Progress">Working Papers</h1>
+                    <ul>
+                        <li>
+                            <strong>Housing Rent, Inelastic Housing Supply and International Business Cycles</strong><br>
+                            <i>(R&R at the Review of Economic Studies)</i> <br>
+                            [<a href="Han_JMP_2024_Draft.pdf" target="_blank">Draft</a> & <a href="Han_JMP_2024_Online_Appendix.pdf" target="_blank">Appendix</a>] <br>
+                            <a class="page-link" href="https://www.anderson.ucla.edu/about/centers/ucla-ziman-center-for-real-estate/faculty-and-research/working-papers">UCLA Ziman Center Working Paper 2024</a> & Rosalinde and Arthur Gilbert Research Grant 2023-2024
+                            <details>
+                                <summary class="Toggle__Summary">
+                                    Abstract
+                                </summary>
+                                Despite its distinctive features&mdash;such as large expenditure shares and inelastic supply&mdash;housing service has received scant attention in the international macroeconomics literature. To fill this gap, I examine the role of housing in international business cycles for eurozone countries. I show that housing rents exhibit larger variations than the prices of tradables and other nontradables, both in cross-country and time series. In addition, among all prices, housing rent stands out as the dominant contributor to both the Balassa-Samuelson effect and the negative Backus-Smith correlation. By simulating eurozone economies using a two-country model with a realistically calibrated housing sector, I show that the cross-country distribution of sectoral productivities, inelastic housing supply, and its interaction with the wealth effect via incomplete markets are key to understanding the empirical moments of real exchange rates. Compared with the standard model, the model with the housing sector generates larger variations of the real exchange rate, a stronger Balassa-Samuelson effect, and more realistic Backus-Smith correlations.
+                            </details>
+                        </li>
+                        <br>
+                        <!-- Repeat similar structure for other papers -->
+                       
+                      
+                        <li>
+                            <strong>Dollar Liquidity Flows in Small-Open Economies</strong> (with <a class="page-link" href="http://www.sakibigio.net/"> Saki Bigio</a> and Paul Castillo)<br>
+                            [Draft</a>]
+                            <details>
+                                <summary class="Toggle__Summary">
+                                    Abstract
+                                </summary>
+                                This paper studies the mechanics of shocks to the supply and demand for dollar reserve-assets (dollar flows) in small open-economies. In small open-economies, the domestic financial system issues dollar liabilities that enable international transactions. To provide that service, the financial system maintains dollar reserve assets that settle international payments done with their liabilities. The supply of reserve assets can increase with surprises in the current account. The demand for reserves can increase when domestic liquidity risks increase. We instrument for dollar demand and supply shocks and estimate the impulse responses of the composition of the financial system's balance sheet, the exchange rate, interest rates, and macroeconomic variables for a small-open economy, Peru. We then present a model consistent with these impulse responses. The model rationalizes the joint control of inflation and exchange-rates in small-open economies. We produce counterfactuals that shed light on the desirability of exchange rate interventions. 
+                            </details>
+                        </li>
+                        <br>
+                        <!-- Repeat similar structure for other papers -->
+                        <li>
+                            <strong>The Effect of Housing on Portfolio Choice: House Price Risk and Liquidity Constraint</strong><br>
+                             [<a href="Han_2023_HPPF_Draft.pdf" target="_blank">Draft</a> & <a href="Han_2023_HPPF_Slide.pdf" target="_blank">Slides</a>] <br>
+                              <a class="page-link" href="https://www.anderson.ucla.edu/about/centers/ucla-ziman-center-for-real-estate/faculty-and-research/working-papers#a-942731">UCLA Ziman Center Working Paper 2022</a> & Rosalinde and Arthur Gilbert Research Grant 2021-2022
+                            <details>
+                                <summary class="Toggle__Summary">
+                                    Abstract
+                                </summary>
+                                Although numerous studies have examined the crowding-out effect of housing on stock holdings via the house price risk channel and the liquidity constraint channel concurrently, separate influences on the crowding-out effect via the two channels have received less attention. In this paper, by exploiting a unique Korean housing tenure type called jeonse, which affects a household's investment decision only through the liquidity constraint channel, I study both effects separately. A calibrated life-cycle portfolio choice model with endogenous housing tenure choice and stock market participation shows that the liquidity constraint channel only affects young households and households with a low net wealth-to-income ratio and does not affect old or wealthier households. The house price risk channel, on the other hand, affects all types of households, including households with a high wealth-to-income ratio. Regressions using a household level panel survey show that the crowding-out effect of jeonse exists only for households with a low net wealth-to-income ratio and young households, whereas the crowding-out effect of homeownership affects all types of households. 
+                            </details>
+                        </li>
+                        <br>
+                        <!-- Repeat similar structure for other papers -->
+                        <li>
+                            <strong>Building Housing: The Allocative Efficiency of Creating New Cities Versus Expanding Existing Cities</strong> (with <a class="page-link" href="https://sunhamkim.github.io/">Sunham Kim</a>)<br>
+                            [<a href="HanKim_2023_HPLR.pdf" target="_blank">Draft</a> & Slides Available soon] <br>
+                             <a class="page-link" href="https://www.anderson.ucla.edu/about/centers/ucla-ziman-center-for-real-estate/faculty-and-research/working-papers">UCLA Ziman Center Working Paper 2023</a> & Rosalinde and Arthur Gilbert Research Grant 2022-2023 & Krannert Doctoral Research Funds 2022-2023 
+                            <details>
+                                <summary class="Toggle__Summary">
+                                    Abstract
+                                </summary>
+                                This paper explores the effect of two different types of land use policies on regional economies by using regional level data of South Korea. We analyze the effect of conventional land-use restrictions in existing cities as well as the effect of unique land-supply policies, motivated by the South Korean government’s 2nd New Town Project which built new cities from the scratch, supplying 666,000 houses near Seoul Metropolitan Area (SMA). We estimate the effect of such policies on the aggregate and regional economies, considering both the efficiency gain from the resource reallocation and externalities from regional decline. If the government introduces tighter land-use restrictions in SMA and relaxes land-use restrictions in other regions, regional population will more evenly distribute at the cost of aggregate GDP loss and universal housing price increases. Our back-of-the-envelope calculation indicates that the 2nd New Town Project was cost effective as it permanently increased steady state real aggregate GDP flow by 0.4%, for the one-time cost amounting 4.05% of GDP. It however exacerbated regional decline by decreasing overall rural population share by 4%. 
+                            </details>
+                        </li>
+                        <br>
+                    </ul>
+
+                    
+                  
+                  
+
+
+
+
+
+
+                  
+                    <h1 id="Research in Progress">Selected Work in Progress</h1>
+
+                    <ul>
+                        <li>
+                            <strong>Skyrocketing House Prices and Squeezed Young Entrepreneurs</strong> (with <a class="page-link" href="https://sites.google.com/view/jinseokpark/home?authuser=0">Jinseok Park</a>)<br>
+                        </li>
+                        <br>                        
+                        <li>
+                            <strong>International Balance Sheet: A Deep Dive</strong> (with <a class="page-link" href="http://www.cianallen.org/">Allen Cian</a> and <a class="page-link" href="https://sites.google.com/site/lucianajuvenal/home?authuser=0">Luciana Juvenal</a>)<br>
+                        </li>                        
+                    <ul>
+
+
+                    
+                      <h1 id="Research in Progress"> Peer-reviewed Academic Publication </h1>
+
+                    <ul>
+                        <li>
+                            <strong>Skyrocketing House Prices and Squeezed Young Entrepreneurs</strong> (with <a class="page-link" href="https://sites.google.com/view/jinseokpark/home?authuser=0">Jinseok Park</a>)<br>
+                        </li>
+                        <br>                        
+                        <li>
+                            <strong>International Balance Sheet: A Deep Dive</strong> (with <a class="page-link" href="http://www.cianallen.org/">Allen Cian</a> and <a class="page-link" href="https://sites.google.com/site/lucianajuvenal/home?authuser=0">Luciana Juvenal</a>)<br>
+                        </li>                        
+                    <ul>
+
+
+
+
+                      
                 </article>
+
             </div>
+
         </div>
     </div>
 
-<div id="footer"></div>
-
+    <div id="footer"></div>
 </body>
+
 </html>
