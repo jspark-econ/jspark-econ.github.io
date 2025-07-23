@@ -476,3 +476,44 @@ SVG Icons - svgicons.sparkk.fr
     width:100%;
     background-color: #393838;
     opacity: 1; }
+
+
+
+
+
+
+
+/* --- 기존 코드들 --- */
+
+
+/* === Expandable Abstract Styling === */
+details {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary:hover {
+  color: #007acc;
+}
+
+details[open] summary::after {
+  content: " ▲";
+}
+
+summary::after {
+  content: " ▼";
+  float: right;
+}
+
+p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+
