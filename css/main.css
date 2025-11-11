@@ -517,3 +517,21 @@ p {
 }
 
 
+
+
+<style>
+.btn-eval {
+  background-color: #0056b3; /* USC 블루톤 or 네이비 블루 */
+  color: white;
+  padding: 4px 10px;
+  margin-left: 8px;
+  border-radius: 5px;
+  font-size: 0.85em;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn-eval:hover {
+  background-color: #003d80;
+}
+</style>
+
